@@ -40,9 +40,9 @@ a {
     
 }
 
-.search-bar {
+/*.search-bar {
     margin: auto;
-    /*border: 2px solid black;*/
+    border: 2px solid black;
     width: 1000px;
 }
 
@@ -53,6 +53,32 @@ a {
     margin-left: 25%;
     width: 500px;
     height: 40px;
+}*/
+
+.search-bar {
+    border: 1px solid  rgb(202, 200, 200);
+    border-radius: 20px;
+    width: 500px;
+    height: 40px;
+    margin-left: 25%;
+}
+
+#search_icon {
+    color: rgb(184, 180, 180);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#mic_icon {
+    
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-right: 0;
+        
 }
 
 
