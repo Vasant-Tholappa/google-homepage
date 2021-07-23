@@ -8,27 +8,39 @@ a {
     right: 0;
     display: flex;
     /*border: 1px solid black;*/
-    width: 280px;
+    width: 200px;
+    height: 40px;
+    
     
 }
 
 #gmail_header {
     font-size: 14px;
+    color:rgb(61, 59, 59);
+    
+    
 }
 
 #images_header {
     font-size: 14px;
-    margin-left: 30%;
+    color:rgb(61, 59, 59);
+    margin-left: 35%;
+    
 }
 
-#apps_header {
-    font-size: 14px;
-    margin-left: 30%;
+#apps_logo {
+    font-size: 23px;
+    margin-left: 20%;
+    color: black;
+    padding-top: 8px;
 }
 
-#account_header {
-    font-size: 14px;
-    margin-left: 30%;
+#account_pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 90%;
+    padding-top: 3px;
 }
 
 
@@ -60,7 +72,7 @@ a {
     border-radius: 20px;
     width: 500px;
     height: 40px;
-    margin-left: 25%;
+    margin: auto;
 }
 
 #search_icon {
@@ -78,7 +90,8 @@ a {
     background-clip: text;
     color: transparent;
     margin-right: 0;
-        
+    padding-left: 430px;
+    padding-top: 8px;    
 }
 
 
