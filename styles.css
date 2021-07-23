@@ -31,7 +31,7 @@ a {
 #apps_logo {
     font-size: 23px;
     margin-left: 20%;
-    color: black;
+    color: rgb(119, 116, 116);
     padding-top: 8px;
 }
 
@@ -135,8 +135,8 @@ footer {
     border-bottom: 1px solid #dadce0;
     border-top: 1px solid #dadce0;
     display: grid;
-    grid-template-columns: 88% 88%;
-    
+    grid-template-columns: 400px 230px;
+    grid-column-gap: calc(100vw - 400px - 230px);
     
 }
 
@@ -145,7 +145,7 @@ footer {
     /*border: 1px solid black;*/
     display: flex;
     flex-direction: row;
-    width: 400px;
+    
     
 }
 
@@ -154,7 +154,7 @@ footer {
     /*border: 1px solid black;*/
     display: flex;
     flex-direction: row;
-    width: 230px;
+    
 }
 
 
@@ -166,9 +166,21 @@ footer {
 
 
 
-@media only screen and (max-width: 685px) {
+@media only screen and (max-width: 750px) {
     footer {
         display: block;
+    }
+
+    /* now we gotta declare widths for divs again because 
+    we changed back to display: block, so the display: grid properties 
+    would've disappeared (including the widths we set in "grid-template-columns")*/
+
+    .div1 {
+        width: 400px;
+    }
+
+    .div2 {
+        width: 230px;
     }
 
     .div1,.div2 {
